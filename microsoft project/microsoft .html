@@ -4,40 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/output.css" />
-    <title>Microsoft Corporation</title>
+    <title>Compare Microsoft 365 Plans &amp; Pricing (Formerly Office 365) - Microsoft Store</title>
   </head>
-  <body class="h-screen overflow-hidden">
-    <div class="navabar  flex justify-between items-center mt-6">
-        <div class="flex items-center md:order-2">
-      <div class="hambers flex gap-0.5 flex-col p-4 md:hidden  cursor-pointer">
-        <div class="line w-5 h-0.5 bg-black"></div>
-        <div class="line w-5 h-0.5 bg-black"></div>
-        <div class="line w-5 h-0.5 bg-black"></div>
+  <body>
+    <div class="navabar flex justify-between items-center mt-6 md:ml-6">
+      <div class="flex items-center md:order-2">
+        <div class="hambers flex gap-0.5 flex-col p-4 md:hidden cursor-pointer">
+          <div class="line w-5 h-0.5 bg-black"></div>
+          <div class="line w-5 h-0.5 bg-black"></div>
+          <div class="line w-5 h-0.5 bg-black"></div>
         </div>
-        <div class="search md:hidden"> searchIcon</div>
+        <div class="search md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
       </div>
 
-      <div class="Microsoft  flex items-center md:order-1   grid-6">
-        <div class="flex items-center">
-            <img class="w-8 h-8" src="images/microsoft.png" alt="Microsoft">
-        Microsoft
-    
-    </div>
-        <div class="feature md: flex  items-center space-x-1">
-            <div class="fterm whitespace-nowrap">Microsoft 365</div>
-            <div class="ftermx whitespace-nowrap">Office</div>
-            <div class="ftermx whitespace-nowrap">Azure</div>
-            <div class="ftermx whitespace-nowrap">Copilot</div>
-            <div class="fterm whitespace-nowrap">Windows</div>
-            <div class="ftermx whitespace-nowrap">support</div>
-
+      <div class="logo flex text-center md:order-1">
+        <div class="flex font-bold text-gray-400 text-[19px] items-center">
+          <img class="w-6 h-6" src="images/microsoft.png" alt="" />Microsoft
+        </div>
+        <div class="feature md:flex w-fit font-thin  md:static bg-gray-200 md:bg-white inset-0 absolute md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+        >
+          <div class="fterm">Microsoft 365</div>
+          <div class="ftermx">Office</div>
+          <div class="ftermx">Azure</div>
+          <div class="ftermx">Copilot</div>
+          <div class="fterm">Windows</div>
+          <div class="ftermx">support</div>
         </div>
       </div>
       <div class="flex items-center md:order-3">
-        <div class="search hidden md:block  md:order-first"> searchIcon</div>
-        <div class="cart pr-2">cart</div>
-        <div class="account">account</div>
+        <div class="search hidden md:block md:order-first pr-6 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <div class="cart pr-2 cursor-pointer">
+          <svg
+            xmlns="http://w3.org"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path
+              d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+            ></path>
+          </svg>
+        </div>
+        <div class="account mr-7 cursor-pointer ml-2">
+          <svg
+            xmlns="http://w3.org"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
+    <hr class="mr-5 ml-5 md:hidden" />
   </body>
 </html>
