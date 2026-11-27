@@ -7,77 +7,70 @@
     <title>Drobox</title>
   </head>
   <body>
-    <div
-      class="navabar bg-[#dff29f] w-full h-14 flex justify-center items-center text-center max-w-full  font-bold hover:underline underline-offset-2  text-sky-600 font-sans cursor-pointer "
-    >
-      Tigris joins Dropbox: fast storage built for AI.
-      <span class="font-light ml-1 ">
-        <apps class="span"
-          ><svg
-            xmlns="http://w3.org"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-          </svg> </apps
-      ></span>
-    </div>
+   <div
+  class="navabar bg-[#dff29f] w-full h-14 py-2 px-4 sm:text-sm overflow-hidden min-w-0 text-xs flex justify-center items-center text-center max-w-full font-bold text-sky-600 font-sans"
+>
+  <span class="group inline-flex items-center cursor-pointer hover:underline underline-offset-2">
+    <!-- Text apni jagah static rahega -->
+    <span>Tigris joins Dropbox: fast storage built for AI.</span>
+
+    <!-- Sirf yeh arrow aage hilega -->
+    <span class="ml-1.5 inline-flex items-center transition-transform duration-200 group-hover:translate-x-1.5">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M5 12h14" />
+        <path d="m12 5 7 7-7 7" />
+      </svg>
+    </span>
+  </span>
+</div>
 
     <!-- start nav section -->
 
-    <nav class="flex justify-between items-center h-16 px-4 sm:px-6 border-b border-gray-200">
-      <div class="left flex justify-center items-center ml-6">
-        <div class="logo w-10 h-10"><img class="w-full h-full object-fill bg-white" src="images/drobox.png" alt=""></div>
-        <div class="Dro font-bold text-2xl max-[480px]:hidden">Drobox</div>
-
-      </div>
-      <div class="right flex justify-center items-center gap-3 " >
-        <div class="globIcon max-[480px]:hidden">
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
-              />
-            </svg>
-          </button>
+    <nav class="flex justify-between items-center text-center ml-2 sm:ml-6 h-14 px-4 border-b border-gray-200 bg-white">
+      <a href="" class=" flex items-center  gap-2 px-2 py-1 shrink-0 ">
+        <div class=" flex  items-center justify-center shrink-0 ">
+          <img class=" w-8 h-8 " src="images/drobox.png" alt="">
         </div>
+        <span class="font-bold text-2xl max-[480px]:hidden ">Drobox</span>
+        
+      </a>
 
-        <div class="sign">sign up</div>
-
-        <div class="login">login In</div>
-        <div class="hubergers">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="size-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
+      <div>
+          <a href="">Product</a>
+          <a href="">solutions</a>
+          <a href="">Business</a>
+          <a href="">Pricing</a>
         </div>
+      <div class="flex items-center  gap-4 shrink-0">
+        
+          <button type="button" aria-label="Language" class="max-[478px]:hidden text-gray-800 cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+      </svg>
+    
+        </button>
+        
+      
+      <a href="Sign In" class="hover:text-blue-400">Sign In</a>
+      <a href="Login In" class="hover:text-blue-400">Login In</a>
+      <button type="button" aria-label="Menu" class="p-1 cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </button>
+      
+
       </div>
     </nav>
   </body>
